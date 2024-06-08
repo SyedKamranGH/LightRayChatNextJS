@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .flex-center {
+        @apply flex items-center justify-center;
+    }
+    .flex-between {
+        @apply flex items-center justify-between;
+    }
+    .flex-start {
+        @apply flex items-center justify-start;
+    }
+    .h1-medium {
+        @apply font-montserrat text-[40px] font-medium leading-[60px];
+    }
+    .h3-medium {
+        @apply font-montserrat text-[28px] font-medium leading-[42px];
+    }
+    .h4-medium {
+        @apply font-montserrat text-[20px] font-medium leading-[30px];
+    }
+    .h4-regular {
+        @apply font-montserrat text-[20px] font-normal leading-[30px];
+    }
+    .base-medium {
+        @apply font-montserrat text-[18px] font-medium leading-[27px];
+    }
+    .base-regular {
+        @apply font-montserrat text-[18px] font-normal leading-[27px];
+    }
+    .paragraph-medium {
+        @apply font-montserrat text-[16px] font-medium leading-[24px];
+    }
+    .paragraph-regular {
+        @apply font-montserrat text-[16px] font-normal leading-[24px];
+    }
+    .body-medium {
+        @apply font-montserrat text-[14px] font-medium leading-[21px];
+    }
+    .body-regular {
+        @apply font-montserrat text-[14px] font-normal leading-[21px];
+    }
+    .body-light {
+        @apply font-montserrat text-[14px] font-light leading-[21px];
+    }
+    .small-regular {
+        @apply font-montserrat text-[12px] font-normal leading-[18px];
+    }
+    .small-light {
+        @apply font-montserrat text-[12px] font-light leading-[18px];
+    }
+}
